@@ -31,7 +31,7 @@ checkbox.forEach((check) => {
     check.addEventListener("click", () => {
         listItem.forEach((list) => {
             list.addEventListener("", () => {
-                
+                list.style.display = "text-decoration: line-through; color: gray;";
             })
         })
     })
