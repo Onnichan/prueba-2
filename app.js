@@ -7,7 +7,8 @@ const GI = {
 };
 
 const listaDesordenada = document.querySelector(".js-cont-todo");
-
+const checkbox = document.querySelectorAll(".checkbox");
+const listItem = document.querySelectorAll(".list-item");
 
 const to_do = [
   "Alimentar al perro",
@@ -18,6 +19,21 @@ const to_do = [
 ];
 
 
-let listaRender = "<ul></ul>"
+let listaRender = "<ul>";
+to_do.forEach((item) => {
+    listaRender += `<li class="list-item">${item}<input type="checkbox" class="checkbox"></li>`
+})
+locationbar += "</ul>"
 
 listaDesordenada.innerHTML = listaRender;
+
+checkbox.forEach((check) => {
+    check.addEventListener("click", () => {
+        listItem.forEach((list) => {
+            list.addEventListener("", () => {
+                
+            })
+        })
+    })
+})
+
