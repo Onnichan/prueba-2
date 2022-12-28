@@ -4,10 +4,10 @@ Usando vanilla javaScript(js puro) crear una lista desordenada. Por cada ítem d
 
 ```js
 const to_do = [
-  'Alimentar al perro',
-  'Estudiar para prueba escrita',
-  'Pagar taxes',
-  'Pasear a perro',
-  'Comprar entradas para el cine',
-]
+  "Alimentar al perro",
+  "Estudiar para prueba escrita",
+  "Pagar taxes",
+  "Pasear a perro",
+  "Comprar entradas para el cine",
+];
 ```
